@@ -4,12 +4,12 @@ const Router = require('koa-router');
 const app = new Koa();
 const router = new Router();
 
-rounter.get('/', (ctx) => {
+router.get('/', (ctx) => {
     ctx.body = 'home';
-})
+});
 router.get('/about', (ctx)=>{
     ctx.body = 'Introduce';
-})
+});
 
 app.use(router.routes()).use(router.allowedMethods());
 

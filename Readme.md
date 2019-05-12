@@ -9,6 +9,8 @@
 
  $ yarn start
  $ yarn start:dev
+
+
 ```
 
 ### Back-End 환경구성
@@ -24,4 +26,5 @@
     "start:dev": "nodemon --watch src/ src/index.js"
   }
 
+ $ yarn add koa-router
 ```

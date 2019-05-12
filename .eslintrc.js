@@ -4,7 +4,7 @@ module.exports = {
         "es6": true,
         "node": true
     },
-    "extends": "airbnb",
+    "extends": "airbnb-base",
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
@@ -20,5 +20,9 @@ module.exports = {
         "react"
     ],
     "rules": {
+        "no-unsued-vars" : 1,
+        "comma-dangle": 0,
+        "eol-last": 0,
+        "no-console":0
     }
 };
