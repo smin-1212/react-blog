@@ -27,6 +27,7 @@
   }
 
  $ yarn add koa-router
+ $ yarn add koa-bodyparser
 ```
 
 ### 블로그 포스트용 Rest API
