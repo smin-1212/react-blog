@@ -54,3 +54,10 @@
 | body | String | 내용 |
 | tags | String | 태그목록 |
 | publishedDate | Date | 작성 날짜 |
+
+
+### 블로그 Front-End 환경 구성
+```
+  $ npx create-react-app blog-fronend --scripts-version=1.1.5
+  
+```
