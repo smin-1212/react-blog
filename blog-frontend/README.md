@@ -7,4 +7,5 @@
   $ yarn add react-router-dom redux redux-actions react-redux redux-pender immutable
   $ yarn add open-color include-media
   $ yarn add axios
+  $ yarn add codemirror marked prismjs
 ```
