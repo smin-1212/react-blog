@@ -28,6 +28,8 @@
 
  $ yarn add koa-router
  $ yarn add koa-bodyparser
+
+ $ yarn add mongoose dotenv
 ```
 
 ### 블로그 포스트용 Rest API
@@ -41,3 +43,12 @@
 | POST /posts/:id/comments | 특정 포스트에 덧글 등록 |
 | GET /posts/:id/comments | 특정 포스트에 덧글 목록 조회 |
 | DELETE /posts/:id/comments/:commentId | 특정 포스트의 특정 덧글 삭제 |
+
+
+### 블로그 포스트 Schema
+| 필드명 | 데이터 타입 | 설명 |
+|---|---|---|
+| title | String | 제목 |
+| body | String | 내용 |
+| tags | String | 태그목록 |
+| publishedDate | Date | 작성 날짜 |
