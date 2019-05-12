@@ -8,6 +8,12 @@
  $ node src
 ```
 
+### Back-End 환경구성
+```
+ $ yarn init
+ $ yarn add koa
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
