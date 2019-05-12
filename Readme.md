@@ -6,6 +6,9 @@
 ```
  $ cd ./blog-backend/
  $ node src
+
+ $ yarn start
+ $ yarn start:dev
 ```
 
 ### Back-End 환경구성
@@ -20,4 +23,5 @@
     "start": "node src",
     "start:dev": "nodemon --watch src/ src/index.js"
   }
+
 ```
