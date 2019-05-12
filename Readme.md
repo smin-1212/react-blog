@@ -30,6 +30,8 @@
  $ yarn add koa-bodyparser
 
  $ yarn add mongoose dotenv
+
+ $ yarn add joi
 ```
 
 ### 블로그 포스트용 Rest API
